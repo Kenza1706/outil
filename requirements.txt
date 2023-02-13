@@ -1,0 +1,8 @@
+﻿plotly-express
+pyxlsb
+streamlit-aggrid
+streamlit-option-menu
+pandas 
+numpy
+matplotlib
+seaborn
