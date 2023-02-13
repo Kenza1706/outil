@@ -1,8 +1,10 @@
-﻿plotly-express
-pyxlsb
+plotly-express
 streamlit-aggrid
 streamlit-option-menu
 pandas 
 numpy
 matplotlib
 seaborn
+openpyxl
+xlsxwriter
+pyxlsb
