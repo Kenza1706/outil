@@ -739,7 +739,7 @@ def estimation_totale():
                             d["Fournitures préstation unitaire"]=df["Fournitures unitaires"][i]
                             if (df["Travaux"][i])== 'JOUR' :
                                 d["COUT MO"]=(int(df["Quantité"][i]))*(float(df["Taux forfaitaire unitaire JOUR"][i]))
-                            elif (df["Traveaux"][i])== 'NUIT COURTE':
+                            elif (df["Travaux"][i])== 'NUIT COURTE':
                                 d["COUT MO"]=(int(df["Quantité"][i]))*(float(df["Taux forfaitaire unitaire NUIT COURTE"][i]))
                             else:
                                 d["COUT MO"]=(int(df["Quantité"][i]))*(float(df["Taux forfaitaire unitaire NUIT LONGUE"][i]))
